@@ -1,0 +1,62 @@
+.layui-footer {
+    text-align: center;
+    font-size: 12px;
+}
+/* 图标距离 */
+.iconfont {
+    margin-right: 8px;
+}
+
+.layui-icon {
+    margin-right: 8px;
+    margin-left: 20px;
+}
+
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+/* 隐藏多于滚动条 不清楚注释看效果 */
+.layui-body {
+    overflow: hidden;
+}
+
+/* 干掉所有a链接动画 */
+a {
+    transition: none !important;
+}
+
+/* 欢迎区美化 */
+.userinfo {
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 12px;
+    user-select: none;
+}
+
+.layui-side-scroll .userinfo {
+    border-bottom: 1px solid #282b33;
+}
+
+.layui-nav-img {
+    width: 40px;
+    height: 40px;
+}
+
+.text-avatar {
+    display: inline-block;
+    position: relative;
+    top: 4px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    background-color: #009688;
+}
