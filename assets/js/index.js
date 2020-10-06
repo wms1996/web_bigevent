@@ -32,9 +32,7 @@ function getUserInfo() {
             }
             // 调用renderAvatar渲染用户头像
             renderAvatar(res.data);
-        },
-
-        
+        }
         // 挪到baseAPI里面去了
         // 无论成功与否，都会调用complete这个回调函数
         /* complete: function (res) {
